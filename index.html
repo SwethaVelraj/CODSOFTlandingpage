@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">Know More</a></li>
+            </ul>
+            <img src="adora-high-resolution-logo-transparent.png" alt="">
+        </nav>
+
+        <div class="main-content">
+
+            <div class="image-adora">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="image2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="image1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="image3.png" alt=""></div>    
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>ADORA JEWELLERY</h1>
+                <p>Stunning and Elegant jewels that are customised with low cost</p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="24k.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Pure</h3> 
+                    <p>Best and Pure selected products</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="less-expensive.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Less Expensive</h3>
+                    <p>Low rate with high rated jewels</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="percent1.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Best Offers</h3>
+                    <p>Always available offers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+</body>
+
+</html>
